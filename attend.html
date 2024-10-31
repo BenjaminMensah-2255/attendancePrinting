@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Details</title>
+    <link rel="stylesheet" href="attend.css">
+</head>
+<body>
+    <div class="container">
+        <h3 id="weekTitle">Print Attendance for </h3>
+        <table id="attendanceTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Contact</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- JavaScript will populate rows here -->
+            </tbody>
+        </table>
+        <div class="pagination" id="pagination">
+            <!-- JavaScript will populate pagination buttons here -->
+        </div>
+        <button class="print-button" onclick="window.print()">Print or Export to PDF</button>
+    </div>
+
+    <script src="attend.js"></script>
+</body>
+</html>
